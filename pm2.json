@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "script": "app.js",
+      "name": "proj-0",
+      "watch": true,
+      "args": ["4001"],
+      "env": {
+        "PORT": 4001,
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "app.js",
+      "name": "proj-1",
+      "watch": true,
+      "args": ["4002"],
+      "env": {
+        "PORT": 4002,
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "app.js",
+      "name": "proj-2",
+      "watch": true,
+      "args": ["4003"],
+      "env": {
+        "PORT": 4003,
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
